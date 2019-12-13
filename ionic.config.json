@@ -1,5 +1,7 @@
 {
   "name": "beacon-ionic",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

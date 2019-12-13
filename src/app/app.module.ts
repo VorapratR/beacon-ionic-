@@ -9,6 +9,8 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { IBeacon } from '@ionic-native/ibeacon/ngx';
+import { EstimoteBeacons } from '@ionic-native/estimote-beacons/ngx';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -20,6 +22,8 @@ import { AppRoutingModule } from './app-routing.module';
   providers: [
     StatusBar,
     SplashScreen,
+    IBeacon,
+    EstimoteBeacons,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
